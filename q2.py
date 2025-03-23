@@ -12,15 +12,14 @@ image = """
 
 # Write the string `webpage` to a file called "hello.html"
 
-####
-#### YOUR CODE HERE 
-####
-
+file = open("hello.html", "w")
+file.write(webpage)
+file.close()
 
 # Write the string `image` to a file called "star.svg"
 # Check that you can open the files in your file explorer
 
-####
-#### YOUR CODE HERE 
-####
+file = open("star.svg", "w")
+file.write(image)
+file.close()
 
